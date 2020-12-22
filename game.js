@@ -7,6 +7,10 @@ const rls = require('readline-sync')
  * @returns {undefined}
  */
 const startGame = () => {
+console.log ("Hello, welcome to our game ")
+if (rls.keyInYN("Would you like to play with us ") {
+  console.log("")
+}
 
 }
 
@@ -17,7 +21,8 @@ const startGame = () => {
  * @returns {undefined}
  */
 const quitGame = () => {
-
+console.log("Goodbye");
+process.exit()
 }
 
 /**
@@ -28,7 +33,7 @@ const quitGame = () => {
  * @returns {undefined}
  */
 const gameLoop = () => {
-
+console.log()
 }
 
 
